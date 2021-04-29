@@ -1,0 +1,11 @@
+POST http://localhost:5000/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"dori@dori.de",
+    "vorname":"dori",
+    "name":"Charlie",
+    "password":"fisch",
+    "ort":"gummersbach",
+    "telefonnummer":"01230123"
+}
